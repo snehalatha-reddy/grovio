@@ -13,6 +13,11 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Root route for health check
+app.get('/', (req, res) => {
+    res.json({ message: 'Grove Notes API is running', status: 'healthy' });
+});
+
 // Setup SQLite database
 const dbPath = path.resolve(__dirname, 'notes.db');
 const db = new sqlite3.Database(dbPath, (err) => {
