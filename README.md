@@ -1,11 +1,11 @@
-# Grovio Notes - Multi-User Markdown Studio 📝
+# Grovio Notes - Multi-User Markdown Studio 
 
 A feature-rich, full-stack Markdown studio built with **React**, **Node.js**, and **SQLite**. It offers a premium "Word-style" document experience with multi-user authentication, real-time preview, and automatic version history.
 
 
 ---
 
-## 🌟 Features
+## Features
 - **User Authentication**: Secure JWT-based Login/Signup with hashed passwords.
 - **Version History**: Automatically tracks every edit; browse and restore past versions.
 - **Professional Editor**: Side-by-side editing with a "Notebook" (lined paper) mode.
@@ -16,7 +16,7 @@ A feature-rich, full-stack Markdown studio built with **React**, **Node.js**, an
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 Follow these steps to set up the project locally on your machine.
 
@@ -72,7 +72,7 @@ npm run dev
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```bash
 ├── backend/
 │   ├── server.js    # Express logic, JWT controllers & Schema Migrations
