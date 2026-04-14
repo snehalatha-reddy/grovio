@@ -7,7 +7,7 @@ const bcrypt = require('bcryptjs');
 
 const app = express();
 const bodyParser = require('body-parser');
-const JWT_SECRET = 'your-very-secret-key-123'; // In production, use env variable
+const JWT_SECRET = process.env.JWT_SECRET || 'your-very-secret-key-123'; 
 
 app.use(cors());
 app.use(bodyParser.json());
